@@ -18,7 +18,7 @@ export default function Info() {
       </div>
       <div className="h1 code mt-4 mb-3">{"const whoAmI = {"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
-        A Full Stack Developer with a passion for UI/UX, Technology Enthusiast, and an Apple Fanboy.
+        A Software Developer, Consultant, Technology Enthusiast, and an Apple Fanboy.
         <br />
         Always exploring new technologies and finding ways it can help improve my ability to design and create. 
       </div>
