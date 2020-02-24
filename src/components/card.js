@@ -1,13 +1,12 @@
 import React from "react"
 
-function card(props) {
-  const { cardTitle, cardSubtitle, link } = props
+export default function Card({ cardTitle, cardSubtitle, link }) {
   return (
     <div className="col-lg-4">
-      <div className="card mx-3 my-5">
-        <div className="card-body">
+      <div className="card mx-3 my-5" style={{ height: '220px' }}> 
+        <div className="card-body d-flex flex-column">
           <h2 className="card-title">{cardTitle}</h2>
-          <p className="card-text">{cardSubtitle}</p>
+          <p className="card-text flex-grow-1">{cardSubtitle}</p>
           <a href={link} className="card-link">
             See
           </a>
@@ -16,5 +15,3 @@ function card(props) {
     </div>
   )
 }
-
-export default card

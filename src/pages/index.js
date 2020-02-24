@@ -1,20 +1,12 @@
 import React from "react"
 import "../style.css"
-import Appbar from "../components/appbar"
-import Info from "../components/info"
-import { Helmet } from "react-helmet"
+import Layout from "../components/layout"
+import { Info } from "../components"
 
-function index() {
+export default function App() {
   return (
-    <div>
-      <Appbar />
+    <Layout title="Home">
       <Info />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Home | Ryan Rodwell</title>
-      </Helmet>
-    </div>
+    </Layout>
   )
 }
-
-export default index

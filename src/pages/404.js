@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/layout"
 
-function ErrorPage() {
-    return (
-        <div>
-            <h1>404 Page Not Found</h1>
-        </div>
-    )
+export default function ErrorPage() {
+  return (
+    <Layout title="Page Not Found">
+      <div
+        style={{
+          minHeight: "85vh",
+          display: "flex",
+          flex: 1,
+          flexDirection: "column",
+          justifyContent: "center",
+          textAlign: "center",
+        }}
+      >
+        <h1>404 Page Not Found</h1>
+      </div>
+    </Layout>
+  )
 }
-
-export default ErrorPage

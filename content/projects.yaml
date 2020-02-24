@@ -1,23 +1,23 @@
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: PRP Home Inspections
+  subtitle: Company website for Home Inspector
+  link: https://prphomeinpsections.netlify.com/
 
-- title: Basic Music
-  subtitle: Basic Music Player That lets you to play music
-  link: https://github.com/Mr404Found/Basic-Music-Player
+- title: Appointment Scheduler
+  subtitle: Scheduling app built using Python, Django, SQLite, and Javascript
+  link: https://github.com/rrodwell/PythonDjangoApp
 
-- title: Age Calculator
-  subtitle: Get Your Age
-  link: https://github.com/Mr404Found/AgeCalculator
+- title: GTTPP
+  subtitle: Georgia Tech Total Person Program
+  link: https://github.com/rrodwell/GTTPP
 
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: QTest React App
+  subtitle: Web app built with React, Node, and JS that utilizes a test management API
+  link: https://github.com/rrodwell/ReactAPIApp
 
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: Checkbook
+  subtitle: A React + GraphQL application designed to help track expenses.
+  link: https://github.com/rrodwell/CheckbookApp
 
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: Weather App
+  subtitle: Simple React weather application. Search by city to see the current weather and 5 day forecast 
+  link: https://github.com/rrodwell/ReactWeatherApp

@@ -12,6 +12,10 @@ body {
   color: #fff !important;
   font-size: 20px !important;
   font-family: "Poppins", sans-serif !important;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .code {
@@ -38,7 +42,7 @@ body {
 
 .icon:hover {
   transform: scale(1.5);
-  color: #ff8a00;
+  color: #39a1d1;
 }
 
 .card {
