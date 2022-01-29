@@ -1,11 +1,13 @@
 import React from 'react'
-import { Appbar, SEO } from '.'
+
+import Navbar from '../Navbar'
+
 
 export default function Layout({ title, children }) {
   return (
     <>
-      <SEO title={title}/>
-      <Appbar/>
+      <Seo title={title}/>
+      <Navbar/>
       <div>
         {children}
       </div>

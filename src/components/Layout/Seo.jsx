@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-export default function SEO({ title }) {
+export default function Seo({ title }) {
   return (
     <Helmet>
       <meta charSet="utf-8" />
