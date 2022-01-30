@@ -1,17 +1,19 @@
 import React from 'react'
+import { CssBaseline } from '@mui/material'
 
 import Seo from './Seo'
-import Pages from './Pages'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+import Body from './Body'
+
+import { Container } from './styles'
 
 export default function Layout({ site: { siteMetadata }, pageTitle, slug }) {
   return (
     <>
-      <Seo pageTitle={pageTitle} siteMetadata={siteMetadata} />
-      <Navbar />
-      <Pages slug={slug} />
-      <Footer />
+      <CssBaseline />
+      <Container>
+        <Seo pageTitle={pageTitle} siteMetadata={siteMetadata} />
+        <Body slug={slug} />
+      </Container>
     </>
   )
 }
