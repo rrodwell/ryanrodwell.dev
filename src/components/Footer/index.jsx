@@ -6,7 +6,7 @@ import { FooterBar } from './styles'
 
 export default function Footer() {
   return (
-    <footer style={{ width: '100%'}}>
+    <footer style={{ width: '100%' }}>
       <Divider sx={{ margin: `0 ${pxToRem(32)}` }} />
       <FooterBar>
         <div>Phone</div>

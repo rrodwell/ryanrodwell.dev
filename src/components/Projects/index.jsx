@@ -27,12 +27,13 @@ export default function Projects() {
       <div className="row">
         {edges.map(({ id, title, subtitle, link }) => {
           return (
-            <Card
-              key={id}
-              cardTitle={title}
-              cardSubtitle={subtitle}
-              link={link}
-            />
+            // <Card
+            //   key={id}
+            //   cardTitle={title}
+            //   cardSubtitle={subtitle}
+            //   link={link}
+            // />
+            <div>{title}</div>
           )
         })}
       </div>

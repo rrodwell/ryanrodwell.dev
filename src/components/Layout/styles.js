@@ -1,4 +1,4 @@
-import { styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles'
 import { Box, Card, CardContent } from '@mui/material'
 import { pxToRem } from '../../styles/utils'
 
@@ -26,4 +26,5 @@ export const BusinessCardContent = styled(CardContent)`
   display: flex;
   flex-direction: row;
   flex: 1;
+  width: 100%;
 `

@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function App() {
-  return <div>home</div>
+  return <div style={{ flex: 1 }}>home</div>
 }

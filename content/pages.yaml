@@ -7,8 +7,8 @@
 - title: 'Resume'
   slug: '/resume'
 
-- title: 'Contact'
-  slug: '/contact'
+# - title: 'Contact'
+#   slug: '/contact'
 
 - title: 'Page Not Found'
   slug: '/404'

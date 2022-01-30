@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Pages from './Pages'
-import Navigation from './Navigation'
 
 import Header from '../Header'
+import Navigation from '../Navigation'
 import Footer from '../Footer'
 
 import { BusinessCard, BusinessCardContent } from './styles'
