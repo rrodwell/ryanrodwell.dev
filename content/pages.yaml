@@ -1,0 +1,14 @@
+- title: 'Home'
+  slug: '/'
+
+- title: 'Projects'
+  slug: '/projects'
+
+- title: 'Resume'
+  slug: '/resume'
+
+- title: 'Contact'
+  slug: '/contact'
+
+- title: 'Page Not Found'
+  slug: '/404'

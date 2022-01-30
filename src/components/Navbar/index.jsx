@@ -1,5 +1,5 @@
-import React from "react"
-import Intent from "../link"
+import React from 'react'
+import Intent from '../link'
 
 export default function Navbar() {
   return (

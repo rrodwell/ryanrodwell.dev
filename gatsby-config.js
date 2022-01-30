@@ -1,9 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `ryanrodwell.dev`,
-    description: `A Passionate Full Stack Developer, UI/UX Enthusiast, Apple Geek and Web
-        Developer.`,
-    author: `@rrodwell`,
+    description: `A Passionate Full Stack Software Engineer.`,
+    author: `Ryan Rodwell`,
   },
   plugins: [
     `gatsby-plugin-material-ui`,
@@ -39,6 +37,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    
   ],
 }
